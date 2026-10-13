@@ -1,5 +1,13 @@
 # @assistant-ui/react-a2a
 
+## 0.2.46
+
+### Patch Changes
+
+- Updated dependencies [[`40b797d`](https://github.com/assistant-ui/assistant-ui/commit/40b797d9c2155e67b16261340f3d2be6b7d10e9a), [`61aaccf`](https://github.com/assistant-ui/assistant-ui/commit/61aaccfe1d21aa1d5f939802713aff469c8818e6), [`b569bbd`](https://github.com/assistant-ui/assistant-ui/commit/b569bbd3c353b205acba6ef1ea17cb89575c76cf), [`2217804`](https://github.com/assistant-ui/assistant-ui/commit/2217804cce3bd143689047af8ea7bee4099e9a54), [`7ba7c54`](https://github.com/assistant-ui/assistant-ui/commit/7ba7c54e66cfa58ae13a6b891b5b7a78ceacb93e)]:
+  - @assistant-ui/generative-ui@0.0.5
+  - @assistant-ui/core@0.3.29
+
 ## 0.2.45
 
 ### Patch Changes

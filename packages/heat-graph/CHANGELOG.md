@@ -1,5 +1,11 @@
 # heat-graph
 
+## 0.0.25
+
+### Patch Changes
+
+- [#9452](https://github.com/assistant-ui/assistant-ui/pull/9452) [`09a8380`](https://github.com/assistant-ui/assistant-ui/commit/09a8380db8038284a2bbd4f5e72f4ff06d82a870) - `HeatGraph.Tooltip` now throws when rendered outside `HeatGraph.Root`, matching the other parts ([@gilsmt](https://github.com/gilsmt))
+
 ## 0.0.24
 
 ### Patch Changes

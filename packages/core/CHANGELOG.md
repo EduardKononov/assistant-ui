@@ -1,5 +1,15 @@
 # @assistant-ui/core
 
+## 0.3.29
+
+### Patch Changes
+
+- [#9537](https://github.com/assistant-ui/assistant-ui/pull/9537) [`61aaccf`](https://github.com/assistant-ui/assistant-ui/commit/61aaccfe1d21aa1d5f939802713aff469c8818e6) - fix: settle pending deletes after reloads, branch switches, and edits ([@okisdev](https://github.com/okisdev))
+
+- [#9551](https://github.com/assistant-ui/assistant-ui/pull/9551) [`2217804`](https://github.com/assistant-ui/assistant-ui/commit/2217804cce3bd143689047af8ea7bee4099e9a54) - fix(core): make an automatic title wait for an explicit title generation in flight and run only if that produced no title, so the thread list and the server end on the same title ([@okisdev](https://github.com/okisdev))
+
+- [#9556](https://github.com/assistant-ui/assistant-ui/pull/9556) [`7ba7c54`](https://github.com/assistant-ui/assistant-ui/commit/7ba7c54e66cfa58ae13a6b891b5b7a78ceacb93e) - fix(core): show the automatic title the server already saved when an explicit title generation fails or returns no title, and settle overlapping automatic titles on the newest one ([@okisdev](https://github.com/okisdev))
+
 ## 0.3.28
 
 ### Patch Changes

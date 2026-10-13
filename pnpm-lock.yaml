@@ -4254,7 +4254,7 @@ importers:
         specifier: ^1.7.0
         version: 1.7.0(zod@4.6.5)
       '@assistant-ui/core':
-        specifier: ^0.3.28
+        specifier: ^0.3.29
         version: link:../core
       assistant-stream:
         specifier: ^0.3.51
@@ -4991,10 +4991,10 @@ importers:
   packages/react-a2a:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.28
+        specifier: ^0.3.29
         version: link:../core
       '@assistant-ui/generative-ui':
-        specifier: ^0.0.4
+        specifier: ^0.0.5
         version: link:../generative-ui
       '@assistant-ui/store':
         specifier: ^0.3.20
@@ -5037,10 +5037,10 @@ importers:
         specifier: ^0.0.59
         version: 0.0.59
       '@assistant-ui/core':
-        specifier: ^0.3.28
+        specifier: ^0.3.29
         version: link:../core
       '@assistant-ui/generative-ui':
-        specifier: ^0.0.4
+        specifier: ^0.0.5
         version: link:../generative-ui
       '@assistant-ui/store':
         specifier: ^0.3.20
@@ -5221,7 +5221,7 @@ importers:
   packages/react-generative-ui:
     dependencies:
       '@assistant-ui/generative-ui':
-        specifier: ^0.0.4
+        specifier: ^0.0.5
         version: link:../generative-ui
     devDependencies:
       '@assistant-ui/react':
@@ -5396,7 +5396,7 @@ importers:
   packages/react-ink-markdown:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.28
+        specifier: ^0.3.29
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.3.20
@@ -6049,7 +6049,7 @@ importers:
   packages/svelte:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.28
+        specifier: ^0.3.29
         version: link:../core
       '@assistant-ui/store':
         specifier: ^0.3.20
@@ -6385,7 +6385,7 @@ importers:
   packages/vscode:
     dependencies:
       '@assistant-ui/core':
-        specifier: ^0.3.28
+        specifier: ^0.3.29
         version: link:../core
     devDependencies:
       '@assistant-ui/store':
@@ -6660,7 +6660,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -6745,7 +6745,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -6845,7 +6845,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -6924,7 +6924,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -7082,7 +7082,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -7173,7 +7173,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -7252,7 +7252,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zustand:
         specifier: ^5.0.15
@@ -7389,7 +7389,7 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       tw-shimmer:
-        specifier: ^0.4.13
+        specifier: ^0.4.14
         version: link:../../packages/tw-shimmer
       zod:
         specifier: ^4.6.5

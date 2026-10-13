@@ -1,5 +1,15 @@
 # @assistant-ui/generative-ui
 
+## 0.0.5
+
+### Patch Changes
+
+- [#9539](https://github.com/assistant-ui/assistant-ui/pull/9539) [`40b797d`](https://github.com/assistant-ui/assistant-ui/commit/40b797d9c2155e67b16261340f3d2be6b7d10e9a) - chore(generative-ui): declare the actions the shipped Vue test helper's catalogs bind, so their handlers run ([@okisdev](https://github.com/okisdev))
+
+- [#9543](https://github.com/assistant-ui/assistant-ui/pull/9543) [`b569bbd`](https://github.com/assistant-ui/assistant-ui/commit/b569bbd3c353b205acba6ef1ea17cb89575c76cf) - feat: `specToUISpec` from the new React-free `@assistant-ui/generative-ui/spec/tree` converts a generative-frame spec into the tree the Slack and Teams converters and `generativeUIToJSX` take, so a spec mode answer can go to Slack and Teams. event bindings become `$action`, bound controls get a `name`, and an action param that reads a bound control's state becomes a `$field` reference to it. ([@okisdev](https://github.com/okisdev))
+- Updated dependencies [[`b569bbd`](https://github.com/assistant-ui/assistant-ui/commit/b569bbd3c353b205acba6ef1ea17cb89575c76cf), [`40b797d`](https://github.com/assistant-ui/assistant-ui/commit/40b797d9c2155e67b16261340f3d2be6b7d10e9a), [`1109afa`](https://github.com/assistant-ui/assistant-ui/commit/1109afabb2f9465ea93f152fb344fbd9da3ac125), [`f9e5643`](https://github.com/assistant-ui/assistant-ui/commit/f9e56437a067df208216d9dd57cf421c5f2a5f21), [`60cdf31`](https://github.com/assistant-ui/assistant-ui/commit/60cdf317a1da31983fc5bf69adbfa28eb63860a8), [`5402b93`](https://github.com/assistant-ui/assistant-ui/commit/5402b93a1e991d0a3e44e253d7bd67880931c835)]:
+  - generative-frame@0.0.6
+
 ## 0.0.4
 
 ### Patch Changes

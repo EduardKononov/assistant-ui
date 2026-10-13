@@ -1,5 +1,21 @@
 # generative-frame
 
+## 0.0.6
+
+### Patch Changes
+
+- [#9543](https://github.com/assistant-ui/assistant-ui/pull/9543) [`b569bbd`](https://github.com/assistant-ui/assistant-ui/commit/b569bbd3c353b205acba6ef1ea17cb89575c76cf) - feat: `resolveSpec(spec, { state })` resolves a spec into the element tree the renderer draws for one state, with conditions, `repeat`, and expressions applied and action params resolved, for targets that cannot run a renderer. ([@okisdev](https://github.com/okisdev))
+
+- [#9539](https://github.com/assistant-ui/assistant-ui/pull/9539) [`40b797d`](https://github.com/assistant-ui/assistant-ui/commit/40b797d9c2155e67b16261340f3d2be6b7d10e9a) - fix: an action list in a spec stops at the first action that fails, so a `setState` that confirms a host action runs only when that action succeeded. The failure is still reported to `onError`. ([@okisdev](https://github.com/okisdev))
+
+- [#9548](https://github.com/assistant-ui/assistant-ui/pull/9548) [`1109afa`](https://github.com/assistant-ui/assistant-ui/commit/1109afabb2f9465ea93f152fb344fbd9da3ac125) - fix: a `render_spec` call that patches an earlier spec with the same title now renders on that spec when it mounts before its title has streamed in. The base follows the title, and the stream starts over when the title brings a new one. ([@okisdev](https://github.com/okisdev))
+
+- [#9507](https://github.com/assistant-ui/assistant-ui/pull/9507) [`f9e5643`](https://github.com/assistant-ui/assistant-ui/commit/f9e56437a067df208216d9dd57cf421c5f2a5f21) - feat: the spec guidance now teaches how to compose an answer (the takeaway first, a `Card` for each module, key figures side by side, and a `Map`, `Timeline`, `Steps`, `Table`, or `Image` where the content calls for one), naming only the components a catalog has and only uses their slots and events allow, and no longer caps a spec at about 30 elements. `render_spec`'s description carries these rules and the app's `customRules`, and `createSpecTools` takes `customRules`, so the rules hold even when a model never loads the `spec` module. ([@okisdev](https://github.com/okisdev))
+
+- [#9540](https://github.com/assistant-ui/assistant-ui/pull/9540) [`60cdf31`](https://github.com/assistant-ui/assistant-ui/commit/60cdf317a1da31983fc5bf69adbfa28eb63860a8) - feat: specs gain the built-in action `copyText` (`{ text }`), validated in every catalog, documented when `catalog.prompt({ hostApi: { clipboard: true } })` says the host handles it, and reserved in `defineCatalog`. The assistant-ui spec toolkits for the web and for Vue write it to the clipboard with `navigator.clipboard.writeText`, only from an event a component emits, never from `watch`, and a copy that does not happen fails, so an action after it in the list, such as a confirmation, does not run. The React Native build leaves it out of the guidance unless an app passes `handlers.copyText` and `specPrompt.hostApi.clipboard`. ([@okisdev](https://github.com/okisdev))
+
+- [#9545](https://github.com/assistant-ui/assistant-ui/pull/9545) [`5402b93`](https://github.com/assistant-ui/assistant-ui/commit/5402b93a1e991d0a3e44e253d7bd67880931c835) - feat: `createSpecToolkit` from the new `generative-frame/spec/assistant-ui/vue` entry renders `render_spec` calls in an `@assistant-ui/vue` thread with Vue components, deriving the same thread state as the React toolkit: earlier calls with the same title, earlier tool results under `/tools` in frontend execution, saved state, and what a UI shares with the model. `@assistant-ui/vue` and `@assistant-ui/core` are optional peers of that entry. ([@okisdev](https://github.com/okisdev))
+
 ## 0.0.5
 
 ### Patch Changes
